@@ -182,20 +182,20 @@ Resources create:
 
 ## Screenshots
 
-### 1. Terraform Deployment Verification
-![Terraform Apply Success](deployment-verification.png)
+### Terraform Deployment
+![Terraform Apply](Terraform%20Apply%20success.png)
 
-### 2. Mumbai EC2 Instance
-![Mumbai EC2 Instance](ec2-mumbai.png)
+### Mumbai EC2
+![Mumbai EC2](Mumbai%20EC2%20instance%20in%20AWS%20console.png)
 
-### 3. Sydney EC2 Instance
-![Sydney EC2 Instance](ec2-sydney.png)
+### Sydney EC2
+![Sydney EC2](Sydney%20EC2%20instance%20in%20AWS%20console.png)
 
-### 4. Mumbai Nginx Webpage
-![Mumbai Nginx](nginx-mumbai.png)
+### Mumbai Nginx
+![Mumbai Nginx](deployed%20Nginx%20servers_MUM.png)
 
-### 5. Sydney Nginx Webpage
-![Sydney Nginx](nginx-sydney.png)
+### Sydney Nginx
+![Sydney Nginx](deployed%20Nginx%20servers_SYD.png)
 
 
 ## Cleanup – Destroy AWS Resources
