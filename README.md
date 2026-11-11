@@ -174,22 +174,29 @@ Content-Type: text/html
 Apply complete! Resources: 4 added, 0 changed, 0 destroyed.
 ```
 
-Resources created:
+Resources create:
 
 - 2 EC2 instances
 - 2 Security Groups
 
+
 ## Screenshots
 
-Deployment verification screenshots are available in the `screenshots/` directory.
+### 1. Terraform Deployment Verification
+![Terraform Apply Success](deployment-verification.png)
 
-They demonstrate:
+### 2. Mumbai EC2 Instance
+![Mumbai EC2 Instance](ec2-mumbai.png)
 
-- Successful Terraform deployment.
-- EC2 instances in both AWS regions.
-- Mumbai Nginx webpage.
-- Sydney Nginx webpage.
-- HTTP 200 OK verification.
+### 3. Sydney EC2 Instance
+![Sydney EC2 Instance](ec2-sydney.png)
+
+### 4. Mumbai Nginx Webpage
+![Mumbai Nginx](nginx-mumbai.png)
+
+### 5. Sydney Nginx Webpage
+![Sydney Nginx](nginx-sydney.png)
+
 
 ## Cleanup – Destroy AWS Resources
 
